@@ -1,0 +1,53 @@
+baseURL: https://www.tobias.wothge.de/
+languageCode: en-us
+title: Tobias Wothge
+copyright: © Tobias Wothge
+# disqusShortname: "yourDisqusShortname"
+# paginate: 3 # articles per page
+
+module:
+  imports:
+    - path: github.com/athul/archie
+
+
+# Code Highlight
+pygmentsstyle: monokai
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+
+# Parameters
+params:
+  subtitle: Network and cybersecurity enthusiast working as an IT/OT junior security expert at [INCYDE](https://incyde.com) in Munich.
+  description: Network and cybersecurity enthusiast working as an IT/OT junior security expert at INCYDE in Munich.
+  mode: toggle # color-mode → light,dark,toggle or auto
+  useCDN: false # don't use CDNs for fonts and icons, instead serve them locally.
+  mathjax: false # enable MathJax support
+  katex: false # enable KaTeX support
+
+  # Social Tags
+  social:
+    - name: GitHub
+      icon: github
+      url: https://github.com/tobi18991
+    - name: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/tobiaswothge/
+    - name: Mail
+      icon: mail
+      url: mailto:info@zoliham.dev
+
+menu:
+  # Main menu Items
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Articles
+      url: /posts
+      weight: 2
+    # - name: About
+    #   url: /about
+    #   weight: 3
+    - name: Tags
+      url: /tags
+      weight: 4
