@@ -32,9 +32,6 @@ params:
     - name: LinkedIn
       icon: linkedin
       url: https://www.linkedin.com/in/tobiaswothge/
-    - name: Mail
-      icon: mail
-      url: mailto:info@zoliham.dev
 
 menu:
   # Main menu Items
