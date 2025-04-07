@@ -17,8 +17,8 @@ pygmentscodefencesguesssyntax: true
 
 # Parameters
 params:
-  subtitle: Network and cybersecurity enthusiast working as an IT/OT junior security expert at [INCYDE](https://incyde.com) in Munich.
-  description: Network and cybersecurity enthusiast working as an IT/OT junior security expert at INCYDE in Munich.
+  subtitle: Network and cybersecurity enthusiast working as an IT/OT security expert at [INCYDE](https://incyde.com) in Munich.
+  description: Network and cybersecurity enthusiast working as an IT/OT security expert at INCYDE in Munich.
   mode: toggle # color-mode → light,dark,toggle or auto
   useCDN: false # don't use CDNs for fonts and icons, instead serve them locally.
   mathjax: false # enable MathJax support
